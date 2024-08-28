@@ -3,22 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <iframe style={{ height: '99vh', width: '100vw', border: 'none', overflow: 'hidden !important' }} src='https://a16e-213-230-125-211.ngrok-free.app/' title='imi-shop' />
   );
 }
 
